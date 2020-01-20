@@ -30,6 +30,21 @@
     align-items: center;
 }
 
+@keyframes float {
+    0% {
+        transform: translateY(-80px);
+        box-shadow: 0 30px 60px -12px rgba(145, 160, 180, 0.45), 30px 30px 40px rgba(118, 146, 180, 0.18);
+    }
+    50% {
+        transform: translateY(-70px);
+        box-shadow: 0 30px 60px -60px rgba(145, 160, 180, 0.45), 30px 30px 40px rgba(118, 146, 180, 0.18);
+    }
+    100% {
+        transform: translateY(-80px);
+        box-shadow: 0 30px 60px -12px rgba(145, 160, 180, 0.45), 30px 30px 40px rgba(118, 146, 180, 0.18);
+    }
+}
+
 .chat__write {
     margin: 0 auto;
     width: 100%;
@@ -46,6 +61,7 @@
     transform: translateY(-80px);
     border-radius: 30px;
     box-shadow: inset -6px -6px 15px rgba(145, 160, 180, 0.45), 30px 30px 40px rgba(118, 146, 180, 0.18);
+    animation: float 3s linear infinite forwards;
 }
 
 .chat__write-icon-left {
@@ -135,4 +151,34 @@
     display: block;
     font-weight: 600;
     font-size: 11px;
+}
+
+@keyframes incomingAnimation {
+    from {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    to {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+.incoming-message {
+    animation: incomingAnimation 1s ease-in-out forwards;
+}
+
+@keyframes sentAnimation {
+    from {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+    to {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+.sent-message {
+    animation: sentAnimation 1s ease-in-out forwards;
 }
