@@ -1,25 +1,23 @@
-.profile__body {
+.profile__screen {
     overflow: hidden;
     background: linear-gradient( to bottom, rgba(101, 101, 114, 0.6) 100%, rgba(0, 0, 0, 0.6)), url("https://i.pinimg.com/564x/85/30/6d/85306d9fe45d199c562d0e55bd6204ad.jpg");
-    min-height:100vh;
+    min-height: 100vh;
 }
 
 .user {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 @keyframes spin {
-  from {
-    transform: none;
-  }
-  to {
-    transform: rotateY(1turn);
-  }
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateY(1turn);
+    }
 }
-
 
 .profile__avatar {
     width: 80px;

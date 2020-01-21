@@ -1,9 +1,8 @@
 .chat__screen {
-    padding: 10px;
     font-size: 14px;
     background-image: url("../images/chat_background.jpg");
-    width:100%;
-    min-height:100vh;
+    width: 100%;
+    min-height: 100vh;
 }
 
 .chat__write-container {
@@ -105,14 +104,13 @@
     width: 80%;
 }
 
-
 @keyframes spin {
-  from {
-    transform: none;
-  }
-  to {
-    transform: rotateY(1turn);
-  }
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateY(1turn);
+    }
 }
 
 .incoming-message {
@@ -148,10 +146,10 @@
 .incoming-message .message__bubble {
     background-image: linear-gradient(to right, #a18cd1 0%, #fbc2eb 100%);
 }
+
 .sent-message .message__bubble {
     background-image: linear-gradient(to right, #91c1e0 0%, #72dac0 100%);
 }
-
 
 .incoming-message .message__author {
     margin-bottom: 10px;

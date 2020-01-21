@@ -8,7 +8,6 @@
     border-top: 1px solid #f7f7f7;
 }
 
-
 .profile__nav {
     position: fixed;
     width: 100%;
@@ -57,16 +56,16 @@
 }
 
 @keyframes showNavBar {
-  from {
-    transform: translateY(80px);
-  }
-  to {
-    transform: none;
-  }
+    from {
+        transform: translateY(80px);
+    }
+    to {
+        transform: none;
+    }
 }
 
 .nav {
-  transform: translateY(80px);
-  animation: showNavBar 0.3s ease-out forwards;
-  animation-delay: 1s;
+    transform: translateY(80px);
+    animation: showNavBar 0.3s ease-out forwards;
+    animation-delay: 1s;
 }

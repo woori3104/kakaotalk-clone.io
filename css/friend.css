@@ -16,26 +16,6 @@
     width: 38px;
 }
 
-.friend .g-avatar {
-    width: 45px;
-    height: 45px;
-    overflow: hidden;
-}
-
-.friend .g-avatar img {
-    width: 45px;
-}
-
-.friend .m-avatar {
-    width: 42px;
-    height: 42px;
-    overflow: hidden;
-}
-
-.friend .m-avatar img {
-    width: 42px;
-}
-
 .friend .friend__column {
     display: flex;
     align-items: center;
@@ -63,4 +43,24 @@
 
 .friend__content .friend__status {
     font-size: 12px;
+}
+
+.friend .g-avatar {
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+}
+
+.friend .g-avatar img {
+    width: 45px;
+}
+
+.friend .m-avatar {
+    width: 42px;
+    height: 42px;
+    overflow: hidden;
+}
+
+.friend .m-avatar img {
+    width: 42px;
 }
