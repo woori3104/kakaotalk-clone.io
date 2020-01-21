@@ -3,6 +3,7 @@
     font-size: 14px;
     background-image: url("../images/chat_background.jpg");
     min-height:100vh;
+    width:100%;
 }
 
 .header-wrapper {
