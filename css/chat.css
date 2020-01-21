@@ -6,18 +6,6 @@
     width:100%;
 }
 
-.header-wrapper {
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    background-color: white;
-}
-
-.chats__body .header,
-.chats__body.status-bar {
-    padding: 0px 20px;
-}
-
 .chat__write-container {
     position: fixed;
     bottom: 0px;
