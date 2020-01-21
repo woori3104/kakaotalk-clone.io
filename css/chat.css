@@ -143,8 +143,15 @@
     margin-bottom: 10px;
     padding: 10px 20px;
     border-radius: 20px;
+}
+
+.incoming-message .message__bubble {
     background-image: linear-gradient(to right, #a18cd1 0%, #fbc2eb 100%);
 }
+.sent-message .message__bubble {
+    background-image: linear-gradient(to right, #91c1e0 0%, #72dac0 100%);
+}
+
 
 .incoming-message .message__author {
     margin-bottom: 10px;
