@@ -8,6 +8,7 @@
     border-top: 1px solid #f7f7f7;
 }
 
+
 .profile__nav {
     position: fixed;
     width: 100%;
@@ -15,10 +16,16 @@
     bottom: 0px;
     left: 0px;
     border-top: 1px solid #f7f7f7;
+    text-align: center;
 }
 
 .profile__nav i {
     font-size: 25px;
+    text-align: center;
+}
+
+.profile__nav h5 {
+    margin-top: 15px;
 }
 
 .nv,
