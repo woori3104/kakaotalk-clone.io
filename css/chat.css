@@ -116,6 +116,16 @@
     width: 80%;
 }
 
+
+@keyframes spin {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateY(1turn);
+  }
+}
+
 .incoming-message {
     align-self: flex-start;
     margin-bottom: 20px;
@@ -132,6 +142,7 @@
     overflow: hidden;
     border-radius: 10px;
     margin-right: 10px;
+    animation: spin 3s linear infinite;
 }
 
 .message__avatar img {
