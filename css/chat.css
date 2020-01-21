@@ -1,9 +1,8 @@
-.chats__body {
-    padding: 0;
+.chat__screen {
+    padding: 10px;
     font-size: 14px;
-    background-image: url("https://static.vecteezy.com/system/resources/previews/000/094/478/non_2x/free-abstract-pattern-vector.jpg");
-    min-height:100vh;
-    width:100%;
+    background-image: url("../images/chat_background.jpg");
+    background-size: cover;
 }
 
 .chat__write-container {
