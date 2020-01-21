@@ -1,11 +1,11 @@
 .header {
     position:fixed;
-    margin:20px 60px;
+    margin:20px 50px;
     display: flex;
     width: 90%;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 10x;
     margin-bottom:20px;
     margin-right:10px;
     margin-left:10px;
