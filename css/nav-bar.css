@@ -48,3 +48,24 @@
     background-color: #dc5d46;
     border-radius: 50%;
 }
+
+@keyframes showNavBar {
+  from {
+    transform: translateY(80px);
+  }
+  to {
+    transform: none;
+  }
+}
+
+.nav {
+  transform: translateY(80px);
+  animation: showNavBar 0.3s ease-out forwards;
+  animation-delay: 1s;
+}
+
+..profile__nav {
+  transform: translateY(80px);
+  animation: showNavBar 0.3s ease-out forwards;
+  animation-delay: 1s;
+}
