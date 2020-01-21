@@ -1,11 +1,13 @@
 .header {
     
     display: flex;
-    width: 100%;
+    width: 90%;
     justify-content: space-between;
     align-items: center;
-    padding-top: 30px;
+    padding-top: 20px;
     margin-bottom:20px;
+    margin-right:10px;
+    margin-left:10px;
 
 }
 .header .header__title {
