@@ -18,9 +18,6 @@ function changeProfile() {
 
         }
     }
-    localStorage.removeItem("avatarPath");
-    localStorage.removeItem("incomminguser");
-    localStorage.removeItem("avatarstatus");
     localStorage.removeItem("link");
 }
 
