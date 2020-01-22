@@ -1,6 +1,6 @@
 .chat__screen {
     font-size: 14px;
-    background-image: url("../images/chat_background.jpg");
+    background-image: url("https://i.pinimg.com/564x/f0/80/4c/f0804c9b41c91115c299ae7bea498bd9.jpg");
     width: 100%;
     min-height: 100vh;
 }
@@ -43,7 +43,7 @@
     transition: width 0.5s ease-in, border-radius 0.5s ease-in, transform 0.5s ease-in-out;
 }
 
- {
+{
     outline: none;
     width: 80%;
     transform: translateY(-80px);
