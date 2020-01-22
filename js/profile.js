@@ -19,6 +19,7 @@ function changeProfile() {
         }
     }
     localStorage.removeItem("link");
+    localStorage.removeItem("avatarstatus");
 }
 
 function getFriendsImg() {
