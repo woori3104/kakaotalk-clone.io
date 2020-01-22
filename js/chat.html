@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat | KAKAO CLONE</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" class="rel">
+</head>
+
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span class="sttust-bar__clock">13:54</span>
+        </div>
+
+        <div class="status-bar__column">
+            <i class="fas fa-clock"></i>
+            <i class="fas fa-volume-mute"></i>
+            <i class="fas fa-wifi"></i>
+            <span class="status-bar__battery-leve">100%</span>
+            <i class="fas fa-battery-full"></i>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header__header-column">
+            <a href="./index.html" class="header__header-back-btn">
+                <i class="fas fa-arrow-left"></i></a>
+        </div>
+        <div class="header__header-column">
+            베프💛
+        </div>
+        <div class="header__header-column">
+
+            <span class="header__icon"><i class="fas fa-search"></i></span>
+            <span class="header__icon"><i class="fas fa-bars"></i></span>
+        </div>
+    </header>
+    <main class="chat__screen">
+        <ul class="chat__messages">
+            <span class="chat__timestamp">Friday, January 11,2019</span>
+            <li class="incoming-message message">
+                <a href="profile.html">
+                    <div class="g-avatar message__avatar">
+                        <img src="https://img.theqoo.net/img/rZKej.jpg" />
+                    </div>
+                </a>
+                <div class="message__content">
+                    <span class="message__author">BEST FRIENDS</span>
+                    <div class="message__bubble">happy birthday to you♥♥</div>
+                </div>
+                <span class="message__timestmp"></span>
+            </li>
+            <li class="sent-message message">
+                <span class="message__timestmp "></span>
+                <div class=" message__content">
+                    <div class="message__bubble ">Thank you very much</div>
+                </div>
+            </li>
+            <li class="incoming-message message">
+                <a href="profile.html">
+                    <div class="g-avatar message__avatar">
+                        <img src="images/avatar2.jpg" />
+                    </div>
+                </a>
+                <div class="message__content">
+                    <span class="message__author">BEST FRIENDS</span>
+                    <div class="message__bubble">오늘하루 좋은 하루 보내용~</div>
+                    <div class="message__bubble">시간될때 밥머그러가용</div>
+                </div>
+                <span class="message__timestmp"></span>
+            </li>
+            <li class="sent-message message">
+                <span class="message__timestmp "></span>
+                <div class=" message__content">
+                    <div class="message__bubble ">ㅇㅋㅇㅋ</div>
+                    <div class="message__bubble ">연락할게</div>
+                </div>
+            </li>
+        </ul>
+    </main>
+    <div class="chat__write-container">
+        <input type="text " placeholder="Send Message " class="chat__write">
+        <div class="chat__write-icon-left chat__icon"><i class="fas fa-plus-square"></i></div>
+        <div class="chat__write-icon-right chat__icon"><span class="chat__write-icon "><i class="far fa-smile "></i></span>
+            <span class="chat__write-icon "><i class="fas fa-microphone "></i></span></div>
+    </div>
+
+    <div class="bigScreen">
+        <span class="bigScreen__text">600px이하의 화면에서 이용하실수있습니다.</span>
+    </div>
+</body>
+<script src="js/clock.js"></script>
+<script src="js/input.js"></script>
+
+</html>
