@@ -21,6 +21,8 @@ function getImgsrc() {
     const friend_img = document.querySelector(".message__avatar");
     const avatar = friend_img.querySelector("img");
     localStorage.setItem("avatarPath", avatar.src);
+    const incomminguser = document.querySelector(".message__author");
+    localStorage.setItem("incomminguser", incomminguser.innerText);
     
 
 }
@@ -29,9 +31,12 @@ function init() {
     const friend_img = document.querySelector(".message__avatar");
     if (friend_img !== null){
         friend_img.addEventListener("click",getImgsrc);
+        
     } else {
         const profileScreen = document.querySelector(".profile__screen");
         const profile_avatar = document.querySelector(".profile__avatar");
+        const profile_name = document.querySelector(".profile__name");
+        
         if (localStorage.getItem("avatarPath") !== "") {
             const path = "url(" + localStorage.getItem("avatarPath")+")";
             
@@ -39,8 +44,10 @@ function init() {
             profileScreen.style.backgroundSize="cover";
             profile_avatar.querySelector("img").setAttribute("src", localStorage.getItem("avatarPath"));
             profileScreen.style.overflow="hidden";
+            profile_name.innerText = localStorage.getItem("incomminguser");
         }        
         localStorage.removeItem("avatarPath");
+        localStorage.removeItem("incomminguser");
     }
 }
 
