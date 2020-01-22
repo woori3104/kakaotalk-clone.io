@@ -43,7 +43,7 @@
     transition: width 0.5s ease-in, border-radius 0.5s ease-in, transform 0.5s ease-in-out;
 }
 
-{
+.chat__write:focus {
     outline: none;
     width: 80%;
     transform: translateY(-80px);
