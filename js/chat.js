@@ -42,8 +42,9 @@ function changeChatScreen() {
         message_author.forEach(element => {
             element.innerText = localStorage.getItem("incomminguser");
         });
+        document.querySelector(".chat__write").addEventListener("submit", inputMessage);
+
     }
-    document.querySelector(".header__title").innerText = localStorage.getItem("incomminguser");
 }
 
 init();
