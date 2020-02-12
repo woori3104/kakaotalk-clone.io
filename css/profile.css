@@ -10,15 +10,6 @@
     align-items: center;
 }
 
-@keyframes spin {
-    from {
-        transform: none;
-    }
-    to {
-        transform: rotateY(1turn);
-    }
-}
-
 .profile__avatar {
     width: 80px;
     height: 80px;
@@ -28,7 +19,6 @@
     align-items: center;
     overflow: hidden;
     margin-top: 110px;
-    animation: spin 3s linear infinite;
 }
 
 .avatar img {
